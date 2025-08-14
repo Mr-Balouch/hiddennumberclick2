@@ -35,7 +35,7 @@ function startRound(){
 }
 
 function sendClickLog(holeId, isCorrect){
-  fetch('https://17679768-eaee-4b15-9f09-bb54468c5ead-00-3ry3q4fj00yb8.spock.replit.dev', { // replace with your backend URL
+  fetch('https://mr-balouch.github.io/hiddennumberclick2-backend/Frontend', { // replace with your backend URL
     method: 'POST',
     headers: {'Content-Type':'application/json'},
     body: JSON.stringify({
@@ -78,5 +78,6 @@ function updateScoreboard(){
 holes.forEach(h => h.addEventListener('click',clickHole));
 
 startRound();
+
 
 
