@@ -35,7 +35,7 @@ function startRound(){
 }
 
 function sendClickLog(holeId, isCorrect){
-  fetch('https://yourserver.com/log', { // replace with your backend URL
+  fetch('https://hiddennumberclick2.vercel.app/', { // replace with your backend URL
     method: 'POST',
     headers: {'Content-Type':'application/json'},
     body: JSON.stringify({
@@ -78,3 +78,4 @@ function updateScoreboard(){
 holes.forEach(h => h.addEventListener('click',clickHole));
 
 startRound();
+
