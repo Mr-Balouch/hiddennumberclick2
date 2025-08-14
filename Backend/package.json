@@ -1,5 +1,5 @@
 {
-  "name": "hiddennumberclick2",
+  "name": "hiddennumberclick2-backend",
   "version": "1.0.0",
   "description": "Backend for Hidden Number Click game",
   "main": "server.js",
@@ -12,4 +12,5 @@
     "express": "^4.18.2"
   }
 }
+
 
